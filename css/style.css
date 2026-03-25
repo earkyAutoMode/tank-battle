@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    font-family: 'Courier New', Courier, monospace;
+    user-select: none;
+}
+
+#gameCanvas {
+    image-rendering: pixelated;
+    display: block;
+    margin: 0 auto;
+    background-color: #000;
+}
+
+#game-container {
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+.hidden {
+    display: none !important;
+}
+
+button {
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+button:active {
+    transform: translateY(0);
+}
